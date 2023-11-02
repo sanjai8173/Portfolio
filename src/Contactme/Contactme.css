@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+
+.about{
+	width: 33vh;
+	margin-left: 80px;
+}
+.img{
+	width: 30vh;
+	height: 30vh;
+}
+
+h2{
+	font-size: small;
+	font-family: 'Press Start 2P';
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 5px;
+}
+
+.h1{
+	margin-left: 30vh;
+	margin-top: 5vh;
+}
+.image-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container img {
+  transform: translateX(100%);
+  animation: slideIn 1s forwards; /* Apply the animation */
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%); /* Start the image below its original position */
+  }
+  100% {
+    transform: translateX(0); /* Bring the image back to its original position */
+  }
+}
+a{
+	text-decoration: none;
+}
